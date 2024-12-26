@@ -20,7 +20,7 @@ export const Form = ({isLoggedIn, setLogIn}) => {
             <button type="submit">Login</button>
         </form>)
 }   
-{isLoggedIn && (<p>You are Logged In!</p>)}
+{isLoggedIn && (<p>You are Logged in!</p>)}
     </div>
     </>
   )
