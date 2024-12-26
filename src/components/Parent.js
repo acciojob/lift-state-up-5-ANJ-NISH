@@ -8,7 +8,7 @@ export const Parent=()=>
 
     return (
         <>
-        <h2 style={{textAlign: 'center'}}>Parent Component</h2>
+        <h1 style={{textAlign: 'center'}}>Parent Component</h1>
         <Form isLoggedIn={isLoggedIn} setLogIn={setLogIn}/>
         </>
     )
